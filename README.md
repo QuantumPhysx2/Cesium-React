@@ -19,15 +19,17 @@
   <li>Open the "package.json" file.</li>
   <li>
     Replace the "scripts" section with
+    <b>
     "scripts": {
       "start": "craco start",
       "build": "craco build",
       "test": "craco test",
       "eject": "react-scripts eject"
     },
+    </b>
   </li>
-  <li>Create a "craco.config.js" file in the React root directory (same as the "package.json" file).</li>
-  <li>Go to "App.js" and add <b>import { Viewer } from 'resium';</b>.</li>
+  <li>Create a <b>"craco.config.js"</b> file in the React root directory (same as the "package.json" file).</li>
+  <li>Go to <b>"App.js"</b> and add <b>import { Viewer } from 'resium';</b>.</li>
   <li>Add <b><Viewer /></b> within the return code block.</li>
   <li>Run "npm start" and it should now provide you with the Cesium map within React.</li>
 </ol>
