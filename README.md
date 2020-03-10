@@ -16,6 +16,7 @@
 <hr />
 <h1>Steps</h1>
 <ol>
+  <li>Run the <b>npx create-react-app</b> to get the environment setup.</li>
   <li>Open the "package.json" file.</li>
   <li>
     Replace the "scripts" section with
